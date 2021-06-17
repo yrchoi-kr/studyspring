@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DF6D1E4-BF75-7252-B4EE-85C191552BD1" schemaObject="4C40D731-8E31-C617-FF48-048FEEC4C6A8" name="TBL_MIDDLE_MENU">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>STUDYDB</sourceObjSchema>
+<sourceObjName>TBL_MIDDLE_MENU</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[중메뉴 테이블]]></commentInRDBMS>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>68D09453-E549-5FA3-B819-2839C9BF9472</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MENU_NO" id="C87A5DC0-DC3B-32B8-46E3-CE6877DCF246">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_MIDDLE_MENU</sourceObjSchema>
+<sourceObjName>MENU_NO</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>2CA5F9F7-0720-64B4-B2D0-BF9091211C4B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_NAME" id="9BDA9150-B623-4DC1-2EF6-33D921979F5E">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_MIDDLE_MENU</sourceObjSchema>
+<sourceObjName>MENU_NAME</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>30FDE406-ADDC-1267-9C1B-296CCBCFD39D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_ORDER" id="03F3C9EA-6DE2-D3D3-CC72-5584BA15A477">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_MIDDLE_MENU</sourceObjSchema>
+<sourceObjName>MENU_ORDER</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>233A04D6-EF1B-C851-FC2C-67A9EF6AADD5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_TOP_MENU_MENU_NO" id="CB5B1ACF-8201-63E6-0030-B1B60BC221CE">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_MIDDLE_MENU</sourceObjSchema>
+<sourceObjName>TBL_TOP_MENU_MENU_NO</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>2CAE8021-8021-72CB-D3AC-84021FA17649</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E56209EE-F80B-BF89-AD88-6A26F4510A45" referredColumn="A6CCE927-9A4C-DE7E-9BDA-FCA4C6003B1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E67B0CF-69EC-1A1B-B0F5-085B3883A2CE" schemaObject="4C40D731-8E31-C617-FF48-048FEEC4C6A8" name="TBL_MIDDLE_MENU_PK">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>STUDYDB</sourceObjSchema>
+<sourceObjName>SYS_C007527</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>A287D983-94EB-6FEB-A954-E642CB9FEBCE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C87A5DC0-DC3B-32B8-46E3-CE6877DCF246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2031E185-62B3-0299-6A0C-E4AE6A8BAACE" name="TBL_TOP_MENU_MENU_NO">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB5B1ACF-8201-63E6-0030-B1B60BC221CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

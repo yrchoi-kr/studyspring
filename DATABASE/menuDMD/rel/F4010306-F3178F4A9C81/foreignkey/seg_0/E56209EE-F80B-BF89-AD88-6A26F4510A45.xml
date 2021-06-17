@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E56209EE-F80B-BF89-AD88-6A26F4510A45" containerWithKeyObject="9DF6D1E4-BF75-7252-B4EE-85C191552BD1" localFKIndex="2031E185-62B3-0299-6A0C-E4AE6A8BAACE" name="TBL_TOP_MENU_MENU_NO">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>STUDYDB</sourceObjSchema>
+<sourceObjName>TBL_TOP_MENU_MENU_NO</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<importedID>EC91D0B4-6407-4650-D95E-9F64047353F2</importedID>
+<referredTableLongName>STUDYDB.TBL_TOP_MENU</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F7384447-F5B9-0ADA-2F39-95CA40A10B03</referredTableID>
+<keyObject>14607FCD-CC67-BDC3-1F0F-E6F60FCCF7FF</keyObject>
+<referredKeyID>14607FCD-CC67-BDC3-1F0F-E6F60FCCF7FF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MENU_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

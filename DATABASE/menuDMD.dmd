@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="menuDMD" id="3BEC0204-0F18-5C17-8CAC-23E3C7667D2B" version="3.5">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 05:08:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3BEC0204-0F18-5C17-8CAC-23E3C7667D2B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="70B27AB1-F5C6-AC36-12D6-FA5AA5A1DF38">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1D356580-C14F-045C-0DEF-34B74B7A9219">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C0050617-075F-6444-221B-994586E00C8E">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="348E3A5D-EDFB-0056-D9FC-AEC5765D7560">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8AB490BE-B67B-ED37-C6B5-DCBA5E1B7DC0">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BE652974-73B1-8780-12C8-4E85B058B6B6">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BF3AFBF3-CDC1-FDF1-EBEE-CABA79896476">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

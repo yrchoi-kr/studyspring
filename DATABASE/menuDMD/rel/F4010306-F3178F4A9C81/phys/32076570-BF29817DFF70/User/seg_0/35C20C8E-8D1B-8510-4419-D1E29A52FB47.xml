@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="STUDYDB" directorySegmentName="seg_0" id="35C20C8E-8D1B-8510-4419-D1E29A52FB47">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjName>STUDYDB</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:40 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<schemaObject>4C40D731-8E31-C617-FF48-048FEEC4C6A8</schemaObject>
+<privileges>CREATE PROCEDURE, CREATE VIEW, CREATE JOB, CREATE DIMENSION, CREATE ANY CONTEXT, CREATE TYPE, CREATE SEQUENCE, CREATE TRIGGER, CREATE TABLE, CREATE CLUSTER, CREATE OPERATOR, CREATE SESSION, CREATE MATERIALIZED VIEW, CREATE INDEXTYPE, CREATE SYNONYM</privileges>
+</UserOraclev10g>

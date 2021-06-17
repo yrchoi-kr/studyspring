@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0F1968F6-1BBD-89BB-7E99-09A625FA6E9E" mainViewID="98AD9251-3EE1-E7B1-6437-AF1FA8D7B1DF">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 05:08:58 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

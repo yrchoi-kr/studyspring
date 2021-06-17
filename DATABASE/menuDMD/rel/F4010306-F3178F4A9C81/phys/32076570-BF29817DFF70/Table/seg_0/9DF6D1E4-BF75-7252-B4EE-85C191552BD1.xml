@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_MIDDLE_MENU" directorySegmentName="seg_0" id="9DF6D1E4-BF75-7252-B4EE-85C191552BD1">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<schemaObject>4C40D731-8E31-C617-FF48-048FEEC4C6A8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B2F368D5-47BC-7CE2-68DC-3DA33EA871C6</segment>
+<tableSpace>5AEDBA4D-737D-08DC-BA42-BA00A9C11D83</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MENU_ORDER" id="03F3C9EA-6DE2-D3D3-CC72-5584BA15A477">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENU_NAME" id="9BDA9150-B623-4DC1-2EF6-33D921979F5E">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENU_NO" id="C87A5DC0-DC3B-32B8-46E3-CE6877DCF246">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TBL_TOP_MENU_MENU_NO" id="CB5B1ACF-8201-63E6-0030-B1B60BC221CE">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_TOP_MENU_MENU_NO" id="2031E185-62B3-0299-6A0C-E4AE6A8BAACE">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_MIDDLE_MENU_PK" id="3E67B0CF-69EC-1A1B-B0F5-085B3883A2CE">
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:57 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<schemaObject>4C40D731-8E31-C617-FF48-048FEEC4C6A8</schemaObject>
+<segment>96BCFB2B-5249-B722-0DB5-24001D3E4090</segment>
+<tableSpace>5AEDBA4D-737D-08DC-BA42-BA00A9C11D83</tableSpace>
+<indexSegment>96BCFB2B-5249-B722-0DB5-24001D3E4090</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

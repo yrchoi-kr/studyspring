@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7384447-F5B9-0ADA-2F39-95CA40A10B03" schemaObject="4C40D731-8E31-C617-FF48-048FEEC4C6A8" name="TBL_TOP_MENU">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>STUDYDB</sourceObjSchema>
+<sourceObjName>TBL_TOP_MENU</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[대메뉴 테이블]]></commentInRDBMS>
+<ownerDesignName>menuDMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MENU_NO" id="A6CCE927-9A4C-DE7E-9BDA-FCA4C6003B1F">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_TOP_MENU</sourceObjSchema>
+<sourceObjName>MENU_NO</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[pk]]></commentInRDBMS>
+<ownerDesignName>menuDMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_NAME" id="A496F52B-F299-38E1-3FA7-093241D054E1">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_TOP_MENU</sourceObjSchema>
+<sourceObjName>MENU_NAME</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:40 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_ORDER" id="F70AB983-74B0-8FCE-BB34-9E5E2F587DE0">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>TBL_TOP_MENU</sourceObjSchema>
+<sourceObjName>MENU_ORDER</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:40 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14607FCD-CC67-BDC3-1F0F-E6F60FCCF7FF" schemaObject="4C40D731-8E31-C617-FF48-048FEEC4C6A8" name="TBL_TOP_MENU_PK">
+<sourceConnName>studydb</sourceConnName>
+<sourceObjSchema>STUDYDB</sourceObjSchema>
+<sourceObjName>SYS_C007525</sourceObjName>
+<createdBy>devil</createdBy>
+<createdTime>2021-06-17 11:56:40 UTC</createdTime>
+<ownerDesignName>menuDMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6CCE927-9A4C-DE7E-9BDA-FCA4C6003B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

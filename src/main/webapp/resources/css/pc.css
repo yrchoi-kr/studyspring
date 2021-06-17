@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+body{
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-size:16px;
+    word-wrap:break-word !important;
+}
+
+header, nav, aside, section, article, div#wrap, footer{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+nav{
+    width:100%;
+    font-size: 20px;
+    height:35px
+}
+.container{
+    height:300px;
+}
+aside{
+    width:15%;
+    height:inherit;
+    float:left;
+}
+section{
+    width:85%;
+    height:inherit;
+    float:left;
+}
+article{
+    width:20%
+}
+footer{
+    width:100%;
+    height: 100px;
+}
+header ul li{
+    display: inline-block;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display:inline-block;}
