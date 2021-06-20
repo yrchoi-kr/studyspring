@@ -7,10 +7,18 @@
  	</if>
  </sql>
 
-<select id="selectTopMenu">
+<select id="selectMenu">
 select * from tbl_top_menu
-<include refid="selectWhere" />
+<!-- <include refid="selectWhere" /> -->
 </select>
+
+<insert id="insertMenu">
+insert into tbl_top_menu values(
+#(menu_no),
+#(menu_name),
+#(menu_order)
+)
+</insert>
 
 
 </mapper>

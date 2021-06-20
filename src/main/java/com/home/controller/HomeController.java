@@ -1,9 +1,8 @@
 package com.home.controller;
 
-import java.util.Locale;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -13,11 +12,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 	/**
-	 * Simply selects the home view to render by returning its name.
+	 * 홈 컨트롤러
 	 */
+	private Logger logger = LoggerFactory.getLogger(HomeController.class);
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model, String tmp) {
-		
+	public String home() {
+		logger.info("홈 컨트롤러 호출");
 		return "home/index";
 	}
 }
