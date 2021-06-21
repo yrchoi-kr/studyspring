@@ -10,20 +10,16 @@ import org.springframework.stereotype.Repository;
 import com.home.dao.TopMenuDAO;
 import com.home.vo.TopMenuVO;
 
-/**
- * 대메뉴 DAO
- * @author 김영제
- *
- */
 @Repository
-public class TopMenuDAOImpl implements TopMenuDAO {
+public class TopMenuDAOImpl implements TopMenuDAO{
+	
 	@Inject
-	private SqlSession sqlSession;
+	SqlSession sqlSession;
 
 	@Override
 	public int insertMenu(TopMenuVO topMenuVO) throws Exception {
 		// TODO Auto-generated method stub
-		return sqlSession.insert("topMenuMapper.insertMenu", topMenuVO);
+		return 0;
 	}
 
 	@Override
@@ -39,22 +35,15 @@ public class TopMenuDAOImpl implements TopMenuDAO {
 	}
 
 	@Override
-	public List<TopMenuVO> selectMenu() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public List<TopMenuVO> selectTopMenu() throws Exception {
+		// TODO 탑 메뉴 모두 불러오기
+		return sqlSession.selectList("topMenuMapper.selectMenu");
 	}
 
 	@Override
-	public TopMenuVO selectMenu(TopMenuVO topMenuVO) throws Exception {
+	public TopMenuVO readMenu(int topMenuNO) throws Exception {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	@Override
-	public TopMenuVO selectMenu(int topMenuNO) throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
 
 }

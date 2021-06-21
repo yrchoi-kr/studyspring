@@ -36,6 +36,4 @@ public class BottomMenuVO {
 	public void setTbl_middle_menu_menu_no(int tbl_middle_menu_menu_no) {
 		this.tbl_middle_menu_menu_no = tbl_middle_menu_menu_no;
 	}
-	
-	
 }

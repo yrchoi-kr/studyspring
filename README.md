@@ -1,3 +1,11 @@
+#### 20210620 (일) 작업
+- 새로운 config는 Servlet이나 root Config에서 @Import를 통하여 추가한다.
+- log4jdbc.log4j2.properties는 꼭 필요하다.
+- 오라클은 dataSource 설정시 DriverManagerDataSource를 리턴.
+- mysql은 dataSource 설정시 BasicDataSource를 리턴
+- mybatis 연동: pom.xml에 추가 -> log4jdbc.log4j2.properties 추가 -> DataSource, SqlSession Config.java 추가
+- JUnit: pom.xml 추가. 예제파일에 @RunWith, @ContextConfiguration, @WebAppConfiguratio 추가.
+
 #### 20210609 (수) 작업
 
 SPRING

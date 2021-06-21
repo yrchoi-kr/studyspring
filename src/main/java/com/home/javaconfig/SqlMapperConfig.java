@@ -15,20 +15,26 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @MapperScan(basePackages= {"com.home.dao"})
-public class MyBatisConfig {
+public class SqlMapperConfig {
+	
 	@Autowired
 	ApplicationContext applicationContext;
+
 	
-	@Bean
-	public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource) throws IOException{
-		SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
-		factoryBean.setDataSource(dataSource);
-		factoryBean.setMapperLocations(applicationContext.getResources("classpath:/mappers/**/*Mapper.xml"));
-		return factoryBean;
-	}
-	
-	@Bean
-	public SqlSessionTemplate sqlSession(SqlSessionFactory sqlSessionFactory) {
-	return new SqlSessionTemplate(sqlSessionFactory);
-	}
+    @Bean
+    public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource) throws IOException {
+        SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
+        factoryBean.setDataSource(dataSource);
+        factoryBean.setMapperLocations(applicationContext.getResources("classpath:/mappers/**/*.xml"));
+        return factoryBean;
+
+    }
+
+
+
+    @Bean
+    public SqlSessionTemplate sqlSession(SqlSessionFactory sqlSessionFactory) {
+        return new SqlSessionTemplate(sqlSessionFactory);
+    }
+
 }
