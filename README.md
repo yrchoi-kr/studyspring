@@ -1,3 +1,13 @@
+#### 20210622 (화) 작업
+- 추가할 기능: Tiles, AOP
+- 페이지 구성도 제작
+- 구성도 제작
+- 홈쇼핑 홈페이지 제작을 위한 테이블 레이아웃 제작
+#### 20210621 (월) 작업
+- sqlSession 유닛 테스트 확인
+- mybatis 설치
+- JUnit 설치
+
 #### 20210620 (일) 작업
 - 새로운 config는 Servlet이나 root Config에서 @Import를 통하여 추가한다.
 - log4jdbc.log4j2.properties는 꼭 필요하다.
