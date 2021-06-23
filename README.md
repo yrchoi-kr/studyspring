@@ -1,9 +1,12 @@
+
+
 #### 20210624 (목) 작업
 - 추가할 기능: AOP
 - tiles 설치
 - tiles 오류 확인 필요.
 - tiles-define.xml의 연구 필요.
 - tiles를 사용하여 controller와 jsp파일의 수정 필요.
+
 #### 20210624 (수) 작업
 - 추가할 기능: Tiles, AOP
 - DB에서 Controller까지 데이터 이동 확인.
@@ -16,6 +19,8 @@
 - 홈쇼핑 홈페이지 제작을 위한 테이블 레이아웃 제작
 
 #### 20210621 (월) 작업
+- 모듈의 설정을 추가할 때는, id는 매서드의 이름, class는 리턴 값으로, 설정은 set매서드를 이용하여 설정할 수 있다.
+- java환경 config에서는 클래스에 @ComponentScan(basePackages={"com.home.controller"},includeFilters=@ComponentScan.Filter(value= {Controller.class}),useDefaultFilters=false)를 추가하는 방식으로 컴포넌트를 추가할 수 있다.
 - sqlSession 유닛 테스트 확인
 - mybatis 설치
 - JUnit 설치
