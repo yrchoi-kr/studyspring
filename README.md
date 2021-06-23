@@ -1,8 +1,20 @@
+#### 20210624 (목) 작업
+- 추가할 기능: AOP
+- tiles 설치
+- tiles 오류 확인 필요.
+- tiles-define.xml의 연구 필요.
+- tiles를 사용하여 controller와 jsp파일의 수정 필요.
+#### 20210624 (수) 작업
+- 추가할 기능: Tiles, AOP
+- DB에서 Controller까지 데이터 이동 확인.
+- jsp에서 jstl의 forEach를 사용하여 메뉴 출력 확인.
+
 #### 20210622 (화) 작업
 - 추가할 기능: Tiles, AOP
 - 페이지 구성도 제작
 - 구성도 제작
 - 홈쇼핑 홈페이지 제작을 위한 테이블 레이아웃 제작
+
 #### 20210621 (월) 작업
 - sqlSession 유닛 테스트 확인
 - mybatis 설치
