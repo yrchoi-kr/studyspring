@@ -1,5 +1,9 @@
 package com.home.service;
 
-public interface TopMenuService {
-	public int selectMenu() throws Exception;
+import java.util.List;
+
+import com.home.vo.TopMenuVO;
+
+public interface TopMenuService  {
+	public List<TopMenuVO> selectTopMenu() throws Exception;
 }

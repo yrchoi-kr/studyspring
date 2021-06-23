@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan(basePackages= {"com.home.dao"})
+@MapperScan(basePackages= {"com.home.vo"})
 public class SqlMapperConfig {
 	
 	@Autowired

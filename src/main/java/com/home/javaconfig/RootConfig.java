@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 
 @Configuration
 @Import({DataSourceConfig.class,SqlMapperConfig.class})
-@ComponentScan(basePackages={"com.home.dao.impl"},includeFilters=@ComponentScan.Filter(value= {Repository.class}),useDefaultFilters=false)
-@ComponentScan(basePackages={"com.home.service.impl"},includeFilters=@ComponentScan.Filter(value= {Service.class}),useDefaultFilters=false)
+@ComponentScan(basePackages={"com.home.dao"},includeFilters=@ComponentScan.Filter(value= {Repository.class}),useDefaultFilters=false)
+@ComponentScan(basePackages={"com.home.service"},includeFilters=@ComponentScan.Filter(value= {Service.class}),useDefaultFilters=false)
 public class RootConfig {
 
 
