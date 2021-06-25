@@ -1,3 +1,31 @@
+#### 해야할 일
+- admin에서 메뉴 관리 부분 만들기.
+- admin의 관리는 정적으로 제작.
+
+#### 20210626(토) 작업
+
+#### 20210625 (금) 작업
+- tiles 설정 완료.
+- 에러 확인 완료.
+- tiles-define.xml 사용 가능.(미완)
+- jsp 나누기, controller와의 연관 관계 확인 완료.
+
+- tiles
+- layout	:파츠를 모으는 부분. insert를 사용하여 배치 각 큰 태그도 tiles에 포함 시키면 편함.
+- header	:각종 import 부분. js, css, script부분이 위치.
+- nav		:상단 메뉴 부분
+- sidebar	:좌측 메뉴 부분
+- content	:본문 내용
+- footer	:하단 부분.
+
+-tiles-define.xml
+<!-- extends를 사용하여 위의 설정을 상속받을 수 있다.-->
+    <definition name="home.index.tiles" extends="noMenu.tiles"><!-- 여기의 name는 Controller에서 return하는 값을 나타낸다. -->
+    	<put-attribute name="content" value="" /><!-- 여기서의 {숫자}는 위에서 *을 나타낸다. -->
+    </definition>
+    <!-- 폴더의 이름과 설정을 하기에 따라서 간결한 코딩이 가능해진다. 예를 들어 폴더와 jsp의 이름을 tiles의 구조에 맞춰서 나눈다면 몇몇 상속을 제외하고는 *을 통하여 설정 및 세팅이 가능하다. --> 
+
+
 
 
 #### 20210624 (목) 작업

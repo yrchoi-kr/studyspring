@@ -28,6 +28,6 @@ public class HomeController {
 	public String home(Model model) throws Exception {
 		logger.info("홈 컨트롤러 호출");
 		model.addAttribute("topMenuList", topMenuService.selectTopMenu());
-		return "home/index";
+		return "home.index.tiles";
 	}
 }
