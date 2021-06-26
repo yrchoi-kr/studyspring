@@ -1,12 +1,20 @@
 #### 해야할 일
-- 모든 페이지에는 기본적으로 top_menu값이 필요하다.
-- home/레이아웃에는 middle, bottom menu값이 필요하다.
-- admin에서 메뉴 관리 부분 만들기.(메뉴CRUD)
-- admin의 관리는 정적으로 제작.(메뉴에 DB 사용X)
+- admin부분 먼저 구현해보자.
+- 1. 게시판 관리.(문의사항, 자유게시판)
+-  페이징, 검색, CRUD 등.
+- 2. 메뉴 관리(product 관리하기 위한 구분, 메뉴와 product, content부분은 연관된 부분이 있다.)
+- AOP설치 및 모든 HomeController부분 /home이 포함되는 부분에 top_menu를 보낸다.(menu부분도 댓글처럼 트리형식으로 만드는 것이 낫지 않을까? 실제로 갯수도 많지 않을텐데..)
+- index를 제외한 곳에 middle_menu를 보낸다.
+- middle_menu중 하나를 클릭하여 left사이드에 출력해야 하는 bottom_menu내용을 보내준다.
+
+- admin페이지 제작. 
 - 메뉴관리, 게시판관리, 상품관리, 유저관리
 - 공부할 내용(오라클의 CRUD 외의 함수.)
 - 댓글 만들 때 트리형식으로 무한 대댓글이 가능하게 만들어보자.
 - 오라클에 저장할때 트리형식으로 테이블작성.
+
+- index는 예외로서 처리하여 둔다.
+- 나머지는 admin과 home로 묶어서 처리.
 
 #### Tiles와 AOP 구성
 - page-define layout부분: index페이지(1), admin, home 페이지(2)
@@ -32,6 +40,10 @@
 - *, {1}을 통하여 레이아웃에 다른 파츠를 붙이는 것이 가능하다.
 - 파츠는 호출이름에따라 구분가능한데, 파츠를 나누기 위한 구분을 무엇으로 하는 것이 좋을지 의문.
 - common, admin, home?
+- 페이지 종류: index.jsp, admin.jsp, adminmenuCRUD.jsp, adminproductCRUD.jsp, adminmemberCRUD.jsp
+- userproduct.jsp(메뉴 구분),결제페이지.jsp, mypage.jsp
+- AdminController, HomeController, CommonController
+- 컨트롤러에서 check후 return값 결정. 
 - 이 경우에는 index는 common으로, (각 페이지의 세부 구성이 우선시 되어야 하겠다. 안 그러면 중반부쯤에 전부 꼬일 듯.)
 
 #### 20210626(토) 작업
