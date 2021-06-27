@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/admin">
                         관리자페이지
                     </a>
                 </li>
