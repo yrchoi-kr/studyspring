@@ -16,7 +16,7 @@ public class AdminController {
 	
 	@RequestMapping(value = "/admin", method = RequestMethod.GET)
 	public String adminMainPage() throws Exception{
-		menuService.selectMenu();
+		menuService.selectMenu(null);
 		return "";
 	}
 }

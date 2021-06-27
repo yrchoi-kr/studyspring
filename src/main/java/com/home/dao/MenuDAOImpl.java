@@ -34,15 +34,15 @@ public class MenuDAOImpl implements MenuDAO{
 	}
 
 	@Override
-	public List<MenuVO> selectMenu() throws Exception {
+	public List<MenuVO> selectMenu(Integer parent) throws Exception {
 		// TODO Auto-generated method stub
-		return sqlSession.selectList("menuMapper.selectMenu");
+		return sqlSession.selectList("menuMapper.selectMenu",parent);
 	}
 
 	@Override
-	public MenuVO readMenu(int menuNO) throws Exception {
+	public MenuVO readMenu(Integer menuIndex) throws Exception {
 		// TODO Auto-generated method stub
-		return sqlSession.selectOne("menuMapper.readMenu",menuNO);
+		return sqlSession.selectOne("menuMapper.readMenu",menuIndex);
 	}
 	
 	

@@ -54,6 +54,10 @@
 - 이 경우에는 index는 common으로, (각 페이지의 세부 구성이 우선시 되어야 하겠다. 안 그러면 중반부쯤에 전부 꼬일 듯.)
 
 #### 20210627(일) 작업
+- AOP 구현에서 문제 발생.
+- @Component를 사용하면 값의 전달이 제대로 일어나지 않는다. 이 문제의 해결이 필요하다.
+- RestAPI전송을 어떻게 할지 생각해봐야겠다.
+
 - @ControllerAdvice는 @ExceptionHandler와 함께 예외 처리 설정하는 클래스에 쓰인다? 메소드이름이 에러명이어야 하는 듯 하다.(확인 필요)
 - AOP는 pom.xml에 의존성추가, root-config에서 aop패키지 추가, servlet에 프록시 설정을 추가하는 것으로 설치및 설정가능.
 - @EnableAspectJAutoProxy(proxyTargetClass = true)
@@ -61,7 +65,6 @@
 - myBatis의 mapper도 자바로 설정이 가능하다. 이 부분의 설정을 추가하는 것이 @Mapper, @MapperScan인 것 같다. 경로또한 java class 경로 형식으로 바꿔줘야 한다.(실험 완료.)
 - mapper 기능은 @로도 가능하고, xml을 불러오는 형태도 가능하다. 하지만 java설정형식이면 @형태가 직관성 있을 것 같다.
 - 참고 https://arcsit.tistory.com/entry/Spring-40-Mybatis-java-config%EB%A1%9C-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0
-- 
 
 #### 20210626(토) 작업
 - RestAPI(=Restfull API): 기존의 쿼리스트링 ?key=value방식에서 보안성이 떨어지는 점을 보안하기 위해 value1/value2/value3 의 형태로 전송하는 것.

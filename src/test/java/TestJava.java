@@ -25,7 +25,7 @@ public class TestJava {
 	
 	@Test
 	public void testDAO() throws Exception{
-		topMenuDAO.selectMenu();
+		topMenuDAO.selectMenu(null);
 	}
 	
 	@Test

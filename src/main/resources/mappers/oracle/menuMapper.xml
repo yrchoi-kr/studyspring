@@ -25,11 +25,18 @@
 </update>
 
 <select id="readMenu" resultType="com.home.vo.MenuVO">
-	select * from tbl_menu
+	select * from tbl_menu where menu_index=#{menu_index}
 </select>
 
 <select id="selectMenu" resultType="com.home.vo.MenuVO">
-	select * from tbl_menu order by menu_order
+	<choose>
+		<when test="#{menu_parent==null}">
+			select * from tbl_menu where menu_parent is null
+		</when>
+		<otherwise>
+			select * from tbl_menu where menu_parent=#{menu_parent}
+		</otherwise>
+	</choose>
 </select>
 
 </mapper>

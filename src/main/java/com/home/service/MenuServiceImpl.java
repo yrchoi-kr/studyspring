@@ -16,8 +16,8 @@ public class MenuServiceImpl implements MenuService{
 	MenuDAO menuDAO;
 	
 	@Override
-	public List<MenuVO> selectMenu() throws Exception {
+	public List<MenuVO> selectMenu(Integer parent) throws Exception {
 		// TODO Auto-generated method stub
-		return menuDAO.selectMenu();
+		return menuDAO.selectMenu(parent);
 	}
 }
