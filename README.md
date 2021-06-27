@@ -1,5 +1,6 @@
 #### 해야할 일
 - admin부분 먼저 구현해보자.
+- admin의 메뉴도 db로 관리. tiles nav, left 수정 필요.
 - 1. 게시판 관리.(문의사항, 자유게시판)
 -  페이징, 검색, CRUD 등.
 - 2. 메뉴 관리(product 관리하기 위한 구분, 메뉴와 product, content부분은 연관된 부분이 있다.)
